@@ -1,0 +1,52 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Monaco",
+    "javascript.validate.enable": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "editor.rulers": [
+        99
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.jinja": "jinja",
+        "*.base": "dockerfile"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "editor.minimap.enabled": false,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "jsx"
+    ],
+    "window.zoomLevel": 0,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "docker.showExplorer": false,
+    "files.useExperimentalFileWatcher": true,
+    "files.exclude": {
+        "/.git": true,
+        "/.DS_Store": true,
+        "/node_modules": true,
+        "/node_modules/": true
+    },
+    "search.exclude": {
+        "/node_modules": true
+    },
+    "files.watcherExclude": {
+        "/node_modules/": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "python.unitTest.pyTestEnabled": true,
+    "python.formatting.provider": "black"
+}
