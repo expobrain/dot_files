@@ -1,0 +1,134 @@
+" -----------------------------------------------------------------------------
+" Vundle settings
+" -----------------------------------------------------------------------------
+
+set nocompatible              " be iMproved
+filetype off                  " required!
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+" let Vundle manage Vundle
+" " required!
+Bundle 'gmarik/vundle'
+Bundle 'vim-scripts/c.vim'
+Bundle 'bling/vim-airline'
+Bundle 'kien/ctrlp.vim'
+Bundle 'klen/python-mode'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
+Bundle 'nono/vim-handlebars'
+Bundle 'pangloss/vim-javascript'
+Bundle 'The-NERD-tree'
+Bundle 'Handlebars'
+Bundle 'fugitive.vim'
+Bundle 'davidhalter/jedi-vim'
+
+filetype plugin indent on     " required!
+
+
+" -----------------------------------------------------------------------------
+" VIM settings
+" -----------------------------------------------------------------------------
+
+" airline settings
+set laststatus=2
+set t_Co=256
+"let g:Powerline_symbols = 'unicode'
+let g:airline_powerline_fonts = 1
+
+" Mustache settings
+let g:mustache_abbreviations = 1
+
+" CtrlP settings
+let g:ctrlp_max_height = 30
+set wildignore+=*.pyc
+
+" .vimrc autoreload
+autocmd! bufwritepost .vimrc source %
+
+" Use system clipboard
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+"set clipboard=unnamed
+
+" By default 4 spaces for a tab
+set tabstop=4 shiftwidth=4 expandtab
+autocmd FileType markdown,xhtml,html,htmldjango,css,scss :setlocal sw=2 ts=2 sts=2
+
+" Strip trailing whitespaces
+autocmd FileType sql,text,markdown,xhtml,html,htmldjango,css,scss,c,cpp,python,ruby,java,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
+
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
+" Syntax highligh, line numbers, color scheme and 80-col limit
+colorscheme desert
+syntax on
+set number
+set tw=79 nowrap fo-=t colorcolumn=80
+highligh ColorColumn ctermbg=235
+
+" Case-insensitive searches
+set hlsearch incsearch ignorecase smartcase
+
+" Bind CTRL+[hjkl] for window movement
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+
+" Binds for tabs
+map <c-t> <esc>:tabnew<CR>
+map <c-n> <esc>:tabnext<CR>
+"map <c-m> <esc>:tabprevious<CR>
+
+" Better indentation
+vnoremap > >gv
+vnoremap < <gv
+
+" -----------------------------------------------------------------------------
+" Python IDE settings
+" -----------------------------------------------------------------------------
+
+let g:pymode_rope = 0
+
+" Documentation
+let g:pymode_doc = 0
+let g:pymode_doc_key = 'K'
+
+" Linting
+let g:pymode_lint = 1
+let g:pymode_lint_checker = "pyflakes,pep8"
+
+" Auto check on save
+let g:pymode_lint_write = 1
+
+" Support virtualenv
+let g:pymode_virtualenv = 1
+
+" Enable breakpoints plugin
+let g:pymode_breakpoint = 1
+let g:pymode_breakpoint_key = 'b'
+let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # BREAKPOINT'
+
+" syntax highlighting
+let g:pymode_syntax = 1
+let g:pymode_syntax_all = 1
+let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+let g:pymode_syntax_space_errors = g:pymode_syntax_all
+
+" Don't autofold code
+let g:pymode_folding = 0
+
+" Code folding
+" mkdir -p ~/.vim/ftplugin
+" wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
+set nofoldenable
+
+" Jedi settings
+let g:jedi#popup_on_dot = 0
+let g:jedi#popup_select_first = 1

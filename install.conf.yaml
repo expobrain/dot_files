@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- shell:
+    - pipx install powerline-shell
+    - cat configs/vscode/extensions.txt | xargs -L 1 code --install-extension
+
+- link:
+    ~/Library/Application Support/Code/User/settings.json: configs/vscode/settings.json
+    ~/.config/powerline-shell/config.json: configs/powerline-shell.json

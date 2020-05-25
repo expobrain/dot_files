@@ -1,0 +1,11 @@
+{
+    "segments": [
+      "virtual_env",
+      "git",
+      "hg",
+      "cwd",
+      "exit_code",
+      "newline",
+      "root"
+    ]
+  }
