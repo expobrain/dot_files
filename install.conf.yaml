@@ -4,6 +4,7 @@
       create: true
 
 - shell:
+    # List of extenstions: code --list-extensions
     - cat configs/vscode/extensions.txt | xargs -L 1 code --install-extension
 
 - link:
