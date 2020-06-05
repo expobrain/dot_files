@@ -9,3 +9,4 @@
 - link:
     ~/Library/Application Support/Code/User/settings.json: configs/vscode/settings.json
     ~/.config/powerline-shell/config.json: configs/powerline-shell.json
+    ~/.gitconfig: configs/gitconfig

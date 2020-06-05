@@ -1,0 +1,15 @@
+[user]
+	name = Daniele Esposti
+[alias]
+	lg = log --decorate --graph --pretty=oneline --abbrev-commit
+	lgm = log --decorate --graph --pretty=oneline --abbrev-commit origin/master..HEAD
+	lgo = log --graph --decorate
+	sti = stash save --keep-index
+[merge]
+	tool = opendiff
+[mergetool "vscode"]
+	cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
+[mergetoo "meld"]
+	cmd = meld \"$LOCAL\" \"$REMOTE\"
+[sequence]
+	editor = interactive-rebase-tool
