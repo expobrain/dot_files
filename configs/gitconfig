@@ -13,3 +13,5 @@
 	cmd = meld \"$LOCAL\" \"$REMOTE\"
 [sequence]
 	editor = interactive-rebase-tool
+[pull]
+	rebase = true
