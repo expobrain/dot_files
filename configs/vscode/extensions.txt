@@ -1,15 +1,15 @@
+JinoAntony.vscode-case-shifter
 bodil.prettier-toml
 brainfit.vscode-importmagic
 bungcip.better-toml
 eamodio.gitlens
 esbenp.prettier-vscode
 freakypie.code-python-isort
-JinoAntony.vscode-case-shifter
+hashicorp.terraform
 jnbt.vscode-rufo
 laktak.hjson
 lextudio.restructuredtext
 liximomo.sftp
-mauve.terraform
 ms-azuretools.vscode-docker
 ms-python.python
 ms-vscode.cpptools
@@ -19,3 +19,4 @@ timonwong.shellcheck
 vscoss.vscode-ansible
 wingrunr21.vscode-ruby
 wolfmah.ansible-vault-inline
+xoronic.pestfile
