@@ -40,8 +40,10 @@
         ]
     },
     "terraform.languageServer": {
-        "enabled": true,
-        "args": []
+        "external": true,
+        "args": [
+            "serve"
+        ]
     },
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
