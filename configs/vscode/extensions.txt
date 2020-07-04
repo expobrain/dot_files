@@ -16,6 +16,7 @@ ms-vscode.cpptools
 ms-vsliveshare.vsliveshare
 rust-lang.rust
 timonwong.shellcheck
+vadimcn.vscode-lldb
 vscoss.vscode-ansible
 wingrunr21.vscode-ruby
 wolfmah.ansible-vault-inline
