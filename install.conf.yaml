@@ -14,3 +14,4 @@
     ~/Library/Preferences/com.googlecode.iterm2.plist: configs/iterm2.plist
     ~/.config/jrnl/jrnl.yaml: configs/jrnl.yaml
     ~/.config/karabiner/karabiner.json: configs/karabiner.json
+    ~/.zshrc: configs/zshrc
