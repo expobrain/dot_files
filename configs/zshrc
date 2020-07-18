@@ -28,3 +28,6 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 bindkey "^[[H" beginning-of-line
 bindkey "^[[F" end-of-line
+
+# Rustup
+export PATH="$PATH:$HOME/.cargo/bin"
