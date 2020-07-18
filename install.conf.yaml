@@ -15,3 +15,4 @@
     ~/.config/jrnl/jrnl.yaml: configs/jrnl.yaml
     ~/.config/karabiner/karabiner.json: configs/karabiner.json
     ~/.zshrc: configs/zshrc
+    ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist: configs/Spectacle.plist
