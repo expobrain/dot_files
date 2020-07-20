@@ -10,7 +10,7 @@ encrypt: false
 highlight: true
 indent_character: '|'
 journals:
-  default: /Users/daniele.esposti/journal.txt
+  default: $HOME/journal.txt
 linewrap: 79
 tagsymbols: '@'
 template: false
