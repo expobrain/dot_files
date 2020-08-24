@@ -48,5 +48,8 @@
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Monokai Dimmed"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.rulers": [
+        79, 99
+    ]
 }
