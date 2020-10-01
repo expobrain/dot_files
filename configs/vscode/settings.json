@@ -54,5 +54,6 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "editor.rulers": [
         79, 99
-    ]
+    ],
+    "python.showStartPage": false
 }
