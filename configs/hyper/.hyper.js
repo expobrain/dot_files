@@ -74,10 +74,10 @@ module.exports = {
     // an array here instead of a color map object
     colors: {
       black: '#000000',
-      red: '#C51E14',
+      red: '#ff0000',
       green: '#1DC121',
       yellow: '#C7C329',
-      blue: '#0A2FC4',
+      blue: '#4265ff',
       magenta: '#C839C5',
       cyan: '#20C5C6',
       white: '#C7C7C7',
