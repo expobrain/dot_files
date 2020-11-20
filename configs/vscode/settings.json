@@ -8,6 +8,7 @@
         "**/__pycache__": true,
         "**/.mypy_cache/": true,
         "**/.pytest_cache": true,
+        "**/.venv/": true,
         "**/*.pyc": true,
         "**/venv/": true
     },
@@ -55,5 +56,9 @@
     "editor.rulers": [
         79, 99
     ],
-    "python.showStartPage": false
+    "python.showStartPage": false,
+    "git.autofetch": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    }
 }
