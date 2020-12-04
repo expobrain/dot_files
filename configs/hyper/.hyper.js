@@ -156,5 +156,6 @@ module.exports = {
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
+    'editor:break': 'esc',
   },
 };
