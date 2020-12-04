@@ -60,5 +60,8 @@
     "git.autofetch": true,
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
