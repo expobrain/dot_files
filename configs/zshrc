@@ -46,3 +46,14 @@ export NVM_DIR="$HOME/.nvm"
 # Brew
 export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+
+# added by travis gem
+[ ! -s /Users/danieleesposti/.travis/travis.sh ] || source /Users/danieleesposti/.travis/travis.sh
+export PATH="/usr/local/opt/terraform@0.13/bin:$PATH"
+
+if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+    autoload -Uz compinit
+    compinit
+fi

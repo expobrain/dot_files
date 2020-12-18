@@ -1,0 +1,48 @@
+terminal:
+  colorScheme:
+    name: Afterglow
+    foreground: '#d0d0d0'
+    background: '#212121'
+    cursor: '#d0d0d0'
+    colors:
+      - '#151515'
+      - '#ac4142'
+      - '#7e8e50'
+      - '#e5b567'
+      - '#6c99bb'
+      - '#9f4e85'
+      - '#7dd6cf'
+      - '#d0d0d0'
+      - '#505050'
+      - '#ac4142'
+      - '#7e8e50'
+      - '#e5b567'
+      - '#6c99bb'
+      - '#9f4e85'
+      - '#7dd6cf'
+      - '#f5f5f5'
+  searchOptions: {}
+  background: colorScheme
+  fontSize: 12
+  cursor: block
+  environment: {}
+  bell: visual
+  copyOnSelect: true
+  autoOpen: true
+  font: Monaco
+hotkeys:
+  shell: {}
+  profile: {}
+  toggle-window: []
+serial: {}
+ssh: {}
+appearance:
+  theme: Standard
+  vibrancy: false
+  frame: thin
+  opacity: 1
+enableWelcomeTab: false
+pluginBlacklist:
+  - ssh
+  - serial
+enableAutomaticUpdates: true

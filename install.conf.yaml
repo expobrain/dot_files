@@ -17,3 +17,4 @@
     ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist: configs/Spectacle.plist
     ~/.hyper.js: configs/hyper/.hyper.js
     ~/.hyper_plugins: configs/hyper/.hyper_plugins
+    ~/Library/Application Support/terminus/config.yaml: configs/terminus.yaml
