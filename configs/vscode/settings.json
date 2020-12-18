@@ -63,5 +63,10 @@
     },
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "files.associations": {
+        "*.tfvars": "terraform"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "python.formatting.provider": "black"
 }
