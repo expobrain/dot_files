@@ -8,6 +8,7 @@
         "**/__pycache__": true,
         "**/.mypy_cache/": true,
         "**/.pytest_cache": true,
+        "**/.terraform": true,
         "**/.venv/": true,
         "**/*.pyc": true,
         "**/venv/": true
