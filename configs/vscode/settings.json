@@ -67,6 +67,9 @@
     "files.associations": {
         "*.tfvars": "terraform"
     },
-    "workbench.colorTheme": "Default Light+",
-    "python.formatting.provider": "black"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "python.formatting.provider": "black",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "python.languageServer": "Pylance",
+    "workbench.startupEditor": "newUntitledFile"
 }
