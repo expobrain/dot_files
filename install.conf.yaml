@@ -8,13 +8,19 @@
     - cat configs/vscode/extensions.txt | xargs -L 1 code --install-extension
 
 - link:
-    ~/Library/Application Support/Code/User/settings.json: configs/vscode/settings.json
+    ~/Library/Application Support/Code/User/settings.json:
+        if: '[ `uname` = Darwin ]'
+        path: configs/vscode/settings.json
     ~/.config/powerline-shell/config.json: configs/powerline-shell.json
     ~/.gitconfig: configs/gitconfig
     ~/.config/jrnl/jrnl.yaml: configs/jrnl.yaml
     ~/.config/karabiner/karabiner.json: configs/karabiner.json
     ~/.zshrc: configs/zshrc
-    ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist: configs/Spectacle.plist
+    ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist:
+        if: '[ `uname` = Darwin ]'
+        path: configs/Spectacle.plist
     ~/.hyper.js: configs/hyper/.hyper.js
     ~/.hyper_plugins: configs/hyper/.hyper_plugins
-    ~/Library/Application Support/terminus/config.yaml: configs/terminus.yaml
+    ~/Library/Application Support/terminus/config.yaml:
+        if: '[ `uname` = Darwin ]'
+        path: configs/terminus.yaml
