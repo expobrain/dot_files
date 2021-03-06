@@ -17,6 +17,11 @@
     ~/.hyper.js: configs/hyper/.hyper.js
     ~/.hyper_plugins: configs/hyper/.hyper_plugins
 
+    # Linux
+    ~/.config/Code/User/settings.json:
+        if: '[ `uname` = Linux ]'
+        path: configs/vscode/settings.json
+
     # OS X
     ~/Library/Application Support/Code/User/settings.json:
         if: '[ `uname` = Darwin ]'
