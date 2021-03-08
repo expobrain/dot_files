@@ -15,3 +15,5 @@
 	editor = interactive-rebase-tool
 [pull]
 	rebase = true
+[core]
+	editor = vim
