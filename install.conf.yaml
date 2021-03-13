@@ -21,6 +21,9 @@
     ~/.config/Code/User/settings.json:
         if: '[ `uname` = Linux ]'
         path: configs/vscode/settings.json
+    ~/.bashrc:
+        if: '[ `uname` = Linux ]'
+        path: configs/bashrc
 
     # OS X
     ~/Library/Application Support/Code/User/settings.json:
