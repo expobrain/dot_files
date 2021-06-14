@@ -71,5 +71,17 @@
     "python.formatting.provider": "black",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "python.languageServer": "Pylance",
-    "workbench.startupEditor": "newUntitledFile"
+    "git.ignoreRebaseWarning": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "redhat.telemetry.enabled": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open"
 }
