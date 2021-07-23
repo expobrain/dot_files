@@ -32,6 +32,3 @@
     ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist:
         if: '[ `uname` = Darwin ]'
         path: configs/Spectacle.plist
-    ~/Library/Application Support/terminus/config.yaml:
-        if: '[ `uname` = Darwin ]'
-        path: configs/terminus.yaml
