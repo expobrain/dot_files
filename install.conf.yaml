@@ -12,7 +12,6 @@
     ~/.config/powerline-shell/config.json: configs/powerline-shell.json
     ~/.gitconfig: configs/gitconfig
     ~/.config/jrnl/jrnl.yaml: configs/jrnl.yaml
-    ~/.config/karabiner/karabiner.json: configs/karabiner.json
     ~/.zshrc: configs/zshrc
     ~/.hyper.js: configs/hyper/.hyper.js
     ~/.hyper_plugins: configs/hyper/.hyper_plugins
