@@ -1,87 +1,80 @@
 {
-    "editor.minimap.enabled": false,
-    "explorer.confirmDragAndDrop": false,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/.mypy_cache/": true,
-        "**/.pytest_cache": true,
-        "**/.terraform": true,
-        "**/.venv/": true,
-        "**/*.pyc": true,
-        "**/venv/": true
-    },
-    "ansibleVaultInline.executable": "/usr/local/bin/ansible-vault",
-    "ansibleVaultInline.keyfile": "~/.ansible_vault.pass",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "window.zoomLevel": 0,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "sshfs.configs": [
-        {
-            "host": "10.0.0.5",
-            "name": "plex_test",
-            "root": "~/plex",
-            "username": "expo"
-        }
-    ],
-    "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
-    "C_Cpp.updateChannel": "Insiders",
-    "terraform.indexing": {
-        "enabled": false,
-        "liveIndexing": false,
-        "delay": 500,
-        "exclude": [
-            ".terraform/**/*",
-            "**/.terraform/**/*"
-        ]
-    },
-    "terraform.languageServer": {
-        "external": true,
-        "args": [
-            "serve"
-        ]
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.rulers": [
-        79, 99
-    ],
-    "python.showStartPage": false,
-    "git.autofetch": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "files.associations": {
-        "*.tfvars": "terraform"
-    },
-    "workbench.colorTheme": "Monokai Dimmed",
-    "python.formatting.provider": "black",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "python.languageServer": "Pylance",
-    "git.ignoreRebaseWarning": true,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "redhat.telemetry.enabled": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.startupEditor": "none",
-    "security.workspace.trust.untrustedFiles": "open"
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.mypy_cache/": true,
+    "**/.pytest_cache": true,
+    "**/.terraform": true,
+    "**/.venv/": true,
+    "**/*.pyc": true,
+    "**/venv/": true
+  },
+  "ansibleVaultInline.executable": "/usr/local/bin/ansible-vault",
+  "ansibleVaultInline.keyfile": "~/.ansible_vault.pass",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "window.zoomLevel": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sshfs.configs": [
+    {
+      "host": "10.0.0.5",
+      "name": "plex_test",
+      "root": "~/plex",
+      "username": "expo"
+    }
+  ],
+  "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "C_Cpp.updateChannel": "Insiders",
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
+  },
+  "terraform.languageServer": {
+    "external": true,
+    "args": ["serve"]
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.rulers": [79, 99],
+  "python.showStartPage": false,
+  "git.autofetch": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.tfvars": "terraform"
+  },
+  "workbench.colorTheme": "Monokai Dimmed",
+  "python.formatting.provider": "black",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "python.languageServer": "Pylance",
+  "git.ignoreRebaseWarning": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "redhat.telemetry.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open"
 }
