@@ -1,5 +1,7 @@
+42Crunch.vscode-openapi
 GraphQL.vscode-graphql
 JinoAntony.vscode-case-shifter
+Orta.vscode-jest
 bodil.prettier-toml
 bpruitt-goddard.mermaid-markdown-syntax-highlighting
 brainfit.vscode-importmagic
@@ -24,9 +26,10 @@ mtxr.sqltools
 redhat.vscode-commons
 redhat.vscode-yaml
 rust-lang.rust
+shd101wyy.markdown-preview-enhanced
 timonwong.shellcheck
+trond-snekvik.simple-rst
 vadimcn.vscode-lldb
-vscoss.vscode-ansible
 vstirbu.vscode-mermaid-preview
 wingrunr21.vscode-ruby
 wolfmah.ansible-vault-inline
