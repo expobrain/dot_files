@@ -82,5 +82,6 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "jest.autoRun": "off"
 }
