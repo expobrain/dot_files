@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 11,
 
     // font family with optional fallbacks
-    fontFamily: 'Monaco for Powerline',
+    fontFamily: 'JetBrains Mono',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
