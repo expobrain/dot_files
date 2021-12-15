@@ -24,15 +24,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "sshfs.configs": [
-    {
-      "host": "10.0.0.5",
-      "name": "plex_test",
-      "root": "~/plex",
-      "username": "expo"
-    }
-  ],
-  "C_Cpp.updateChannel": "Insiders",
   "terraform.indexing": {
     "enabled": false,
     "liveIndexing": false,
