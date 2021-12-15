@@ -32,7 +32,6 @@
       "username": "expo"
     }
   ],
-  "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "C_Cpp.updateChannel": "Insiders",
   "terraform.indexing": {
     "enabled": false,
