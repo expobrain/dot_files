@@ -2,7 +2,8 @@
 	name = Daniele Esposti
 [alias]
 	lg = log --decorate --graph --pretty=oneline --abbrev-commit
-	lgm = log --decorate --graph --pretty=oneline --abbrev-commit origin/master..HEAD
+	lga = log --decorate --graph --pretty=oneline --abbrev-commit origin/master..HEAD
+	lgm = log --decorate --graph --pretty=oneline --abbrev-commit origin/main..HEAD
 	lgo = log --graph --decorate
 	sti = stash save --keep-index
 [merge]
