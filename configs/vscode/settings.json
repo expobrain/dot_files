@@ -43,9 +43,6 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "files.associations": {
     "*.tfvars": "terraform"
   },
@@ -75,5 +72,27 @@
   },
   "jest.autoRun": "off",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "henriblancke.vscode-dbt-formatter"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+  "java.import.gradle.java.home": "/opt/homebrew/Cellar/openjdk@11/11.0.15/libexec/openjdk.jdk/Contents/Home",
+  "remote.SSH.configFile": "/var/folders/b_/q0twld_j77j3j_hqx_w36l3h0000gn/T/gitpod_ssh_config-86943-B37sG7XD3wGs",
+  "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
