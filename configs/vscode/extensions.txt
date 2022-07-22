@@ -1,7 +1,9 @@
 42Crunch.vscode-openapi
+GitHub.copilot
 GraphQL.vscode-graphql
 JinoAntony.vscode-case-shifter
 Orta.vscode-jest
+PascalReitermann93.vscode-yaml-sort
 VisualStudioExptTeam.vscodeintellicode
 bastienboutonnet.vscode-dbt
 bodil.prettier-toml
@@ -15,10 +17,13 @@ gitpod.gitpod-desktop
 hashicorp.terraform
 hbenl.vscode-test-explorer
 henriblancke.vscode-dbt-formatter
+ivangsa.asyncapi-preview
 jnbt.vscode-rufo
+jq-syntax-highlighting.jq-syntax-highlighting
 laktak.hjson
 lextudio.restructuredtext
 liximomo.sftp
+mathiasfrohlich.Kotlin
 ms-azuretools.vscode-docker
 ms-python.python
 ms-python.vscode-pylance
@@ -26,6 +31,7 @@ ms-toolsai.jupyter
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.cpptools
+ms-vscode.makefile-tools
 ms-vscode.test-adapter-converter
 ms-vsliveshare.vsliveshare
 msjsdiag.vscode-react-native
@@ -33,10 +39,11 @@ mtxr.sqltools
 redhat.java
 redhat.vscode-commons
 redhat.vscode-yaml
-rust-lang.rust
+rust-lang.rust-analyzer
 samuelcolvin.jinjahtml
 shd101wyy.markdown-preview-enhanced
 timonwong.shellcheck
+tomoki1207.pdf
 trond-snekvik.simple-rst
 vadimcn.vscode-lldb
 vscjava.vscode-java-debug
