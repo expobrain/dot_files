@@ -1,10 +1,12 @@
 42Crunch.vscode-openapi
 GitHub.copilot
 GraphQL.vscode-graphql
+GraphQL.vscode-graphql-syntax
 JinoAntony.vscode-case-shifter
 Orta.vscode-jest
 PascalReitermann93.vscode-yaml-sort
 VisualStudioExptTeam.vscodeintellicode
+alexcvzz.vscode-sqlite
 bastienboutonnet.vscode-dbt
 bodil.prettier-toml
 bpruitt-goddard.mermaid-markdown-syntax-highlighting

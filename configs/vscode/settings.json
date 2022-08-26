@@ -30,10 +30,6 @@
     "delay": 500,
     "exclude": [".terraform/**/*", "**/.terraform/**/*"]
   },
-  "terraform.languageServer": {
-    "external": true,
-    "args": ["serve"]
-  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -94,5 +90,7 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  "git.mergeEditor": false,
+  "terraform.languageServer.enable": true
 }
