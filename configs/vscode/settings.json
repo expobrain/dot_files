@@ -45,7 +45,6 @@
   "workbench.colorTheme": "Monokai Dimmed",
   "python.formatting.provider": "black",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "python.languageServer": "Pylance",
   "git.ignoreRebaseWarning": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
@@ -92,5 +91,6 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "git.mergeEditor": false,
-  "terraform.languageServer.enable": true
+  "terraform.languageServer.enable": true,
+  "python.analysis.autoImportCompletions": true
 }
