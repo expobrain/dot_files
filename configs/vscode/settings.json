@@ -71,7 +71,7 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
   "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[sql]": {
     "editor.defaultFormatter": "henriblancke.vscode-dbt-formatter"
