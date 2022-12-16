@@ -1,4 +1,5 @@
 42Crunch.vscode-openapi
+Alpha4.jsonl
 GitHub.copilot
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-execution
@@ -28,6 +29,7 @@ laktak.hjson
 lextudio.restructuredtext
 liximomo.sftp
 mathiasfrohlich.Kotlin
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
@@ -37,9 +39,9 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.cpptools
 ms-vscode.makefile-tools
+ms-vscode.remote-explorer
 ms-vscode.test-adapter-converter
 ms-vsliveshare.vsliveshare
-msjsdiag.vscode-react-native
 mtxr.sqltools
 redhat.java
 redhat.vscode-commons

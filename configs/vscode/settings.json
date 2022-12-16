@@ -42,7 +42,6 @@
   "files.associations": {
     "*.tfvars": "terraform"
   },
-  "workbench.colorTheme": "Monokai Dimmed",
   "python.formatting.provider": "black",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "git.ignoreRebaseWarning": true,
@@ -92,5 +91,6 @@
   },
   "git.mergeEditor": false,
   "terraform.languageServer.enable": true,
-  "python.analysis.autoImportCompletions": true
+  "python.analysis.autoImportCompletions": true,
+  "workbench.colorTheme": "Default Light+"
 }
