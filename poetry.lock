@@ -1,6 +1,6 @@
 [[package]]
 name = "dotbot"
-version = "1.19.0"
+version = "1.19.1"
 description = "A tool that bootstraps your dotfiles"
 category = "main"
 optional = false
@@ -8,6 +8,9 @@ python-versions = "*"
 
 [package.dependencies]
 PyYAML = ">=5.3,<6"
+
+[package.extras]
+dev = ["pytest", "tox"]
 
 [[package]]
 name = "pyyaml"
@@ -20,12 +23,12 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "5ae0c22921f6fbc03a28915eb44187030a93b4c08449c2713f01ab5574c813d0"
+content-hash = "ceb9d9c91d5bd694b44f8942c51f66433295429e88d3940999cdc05d9bfc7262"
 
 [metadata.files]
 dotbot = [
-    {file = "dotbot-1.19.0-py2.py3-none-any.whl", hash = "sha256:4734f45934fb92b58c0f7eb9f7877633db07e8acd9505bbeb89af2bcebc3f5ba"},
-    {file = "dotbot-1.19.0.tar.gz", hash = "sha256:29f4a461462a5ff3b1e9929849458e88d827a45d764f582c633237edd373f0af"},
+    {file = "dotbot-1.19.1-py2.py3-none-any.whl", hash = "sha256:9a781e15b568422b167fda8245c44a7b6269667f4799de7f56f20547062e8e08"},
+    {file = "dotbot-1.19.1.tar.gz", hash = "sha256:17a770bfbf72deaddd5c054d26a8c2353ad145ed61c8de9d898134b825696e6b"},
 ]
 pyyaml = [
     {file = "PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:3b2b1824fe7112845700f815ff6a489360226a5609b96ec2190a45e62a9fc922"},
