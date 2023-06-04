@@ -1,6 +1,6 @@
 42Crunch.vscode-openapi
 Alpha4.jsonl
-GitHub.copilot
+GitHub.copilot-nightly
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-execution
 GraphQL.vscode-graphql-syntax
@@ -27,8 +27,9 @@ jnbt.vscode-rufo
 jq-syntax-highlighting.jq-syntax-highlighting
 laktak.hjson
 lextudio.restructuredtext
-liximomo.sftp
 mathiasfrohlich.Kotlin
+ms-azuretools.vscode-docker
+ms-python.black-formatter
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
@@ -42,13 +43,13 @@ ms-vscode.makefile-tools
 ms-vscode.remote-explorer
 ms-vscode.test-adapter-converter
 ms-vsliveshare.vsliveshare
-mtxr.sqltools
 redhat.java
 redhat.vscode-commons
 redhat.vscode-yaml
 rust-lang.rust-analyzer
 samuelcolvin.jinjahtml
 shd101wyy.markdown-preview-enhanced
+systemticks.c4-dsl-extension
 timonwong.shellcheck
 tomoki1207.pdf
 trond-snekvik.simple-rst
