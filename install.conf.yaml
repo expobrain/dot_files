@@ -6,6 +6,7 @@
 - shell:
     # List of extensions: code --list-extensions | sort > configs/vscode/extensions.txt
     - cat configs/vscode/extensions.txt | xargs -L 1 code --install-extension
+    - cat configs/vscode/extensions.txt | xargs -L 1 code-insiders --install-extension
 
 - link:
     # Common
@@ -26,6 +27,9 @@
 
     # OS X
     ~/Library/Application Support/Code/User/settings.json:
+        if: '[ `uname` = Darwin ]'
+        path: configs/vscode/settings.json
+    ~/Library/Application Support/Code - Insiders/User/settings.json:
         if: '[ `uname` = Darwin ]'
         path: configs/vscode/settings.json
     ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist:
