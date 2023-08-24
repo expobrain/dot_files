@@ -82,7 +82,6 @@
     "markdown": true
   },
   "java.import.gradle.java.home": "/opt/homebrew/Cellar/openjdk@11/11.0.15/libexec/openjdk.jdk/Contents/Home",
-  "remote.SSH.configFile": "/var/folders/b_/q0twld_j77j3j_hqx_w36l3h0000gn/T/gitpod_ssh_config-86943-B37sG7XD3wGs",
   "yaml.schemas": {
     "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
   },

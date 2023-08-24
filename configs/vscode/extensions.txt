@@ -1,6 +1,7 @@
 42Crunch.vscode-openapi
 Alpha4.jsonl
-GitHub.copilot-nightly
+GitHub.copilot
+GitHub.copilot-chat
 GraphQL.vscode-graphql
 GraphQL.vscode-graphql-execution
 GraphQL.vscode-graphql-syntax
@@ -14,12 +15,12 @@ asyncapi.asyncapi-preview
 bastienboutonnet.vscode-dbt
 bodil.prettier-toml
 bpruitt-goddard.mermaid-markdown-syntax-highlighting
-bungcip.better-toml
 dawhite.mustache
 eamodio.gitlens
 esbenp.prettier-vscode
 freakypie.code-python-isort
 gitpod.gitpod-desktop
+golang.go
 hashicorp.terraform
 hbenl.vscode-test-explorer
 henriblancke.vscode-dbt-formatter
@@ -50,6 +51,7 @@ rust-lang.rust-analyzer
 samuelcolvin.jinjahtml
 shd101wyy.markdown-preview-enhanced
 systemticks.c4-dsl-extension
+tamasfe.even-better-toml
 timonwong.shellcheck
 tomoki1207.pdf
 trond-snekvik.simple-rst
