@@ -47,3 +47,5 @@ export PATH="/root/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+alias testmon="poetry run pytest -x -vv --testmon --testmon-env=$(git rev-parse --abbrev-ref HEAD)"
