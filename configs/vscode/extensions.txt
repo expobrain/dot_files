@@ -19,11 +19,9 @@ lextudio.restructuredtext
 mechatroner.rainbow-csv
 ms-python.black-formatter
 ms-python.debugpy
+ms-python.mypy-type-checker
 ms-python.python
 ms-python.vscode-pylance
-ms-vscode-remote.remote-ssh
-ms-vscode-remote.remote-ssh-edit
-ms-vscode.remote-explorer
 ms-vscode.test-adapter-converter
 pascalreitermann93.vscode-yaml-sort
 redhat.vscode-yaml
@@ -35,4 +33,6 @@ tamasfe.even-better-toml
 timonwong.shellcheck
 tomoki1207.pdf
 trond-snekvik.simple-rst
+vadimcn.vscode-lldb
+vue.volar
 wolfmah.ansible-vault-inline
