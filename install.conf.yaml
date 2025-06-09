@@ -30,6 +30,6 @@
     ~/Library/Application Support/Code - Insiders/User/settings.json:
         if: '[ `uname` = Darwin ]'
         path: configs/vscode/settings.json
-    ~/Library/Preferences/com.divisiblebyzero.Spectacle.plist:
+    ~/Library/Preferences/com.knollsoft.Rectangle.plist:
         if: '[ `uname` = Darwin ]'
-        path: configs/Spectacle.plist
+        path: configs/Rectangle.plist
