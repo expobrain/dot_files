@@ -4,7 +4,6 @@ asyncapi.asyncapi-preview
 bastienboutonnet.vscode-dbt
 bodil.prettier-toml
 ciarant.vscode-structurizr
-circleci.circleci
 eamodio.gitlens
 esbenp.prettier-vscode
 github.copilot
