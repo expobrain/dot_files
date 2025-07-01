@@ -7,7 +7,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.13"
-dotbot = "^1.21.0"
+dotbot = "^1.22.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
