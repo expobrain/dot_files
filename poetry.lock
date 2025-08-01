@@ -2,14 +2,14 @@
 
 [[package]]
 name = "dotbot"
-version = "1.21.0"
+version = "1.23.0"
 description = "A tool that bootstraps your dotfiles"
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "dotbot-1.21.0-py3-none-any.whl", hash = "sha256:d9753945915671641256635f6ef78ff7dc79f19ccaabf2efcde3aa30884ba8b8"},
-    {file = "dotbot-1.21.0.tar.gz", hash = "sha256:f3dffc21bd603ae13d4097438c702e0b0f0ff0416d028ed20fa8906f39ec8953"},
+    {file = "dotbot-1.23.0-py3-none-any.whl", hash = "sha256:3c0410c838472f22e6f9d4bbb8edc92392db37947aa96f64fe0c3cdd7dc966ac"},
+    {file = "dotbot-1.23.0.tar.gz", hash = "sha256:909c1b7875c00f5d11d61797e4f1885c4d7a1b4db2290b262a71a0457913a5c6"},
 ]
 
 [package.dependencies]
@@ -79,4 +79,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.13"
-content-hash = "12c51e6335ade8c1312e254d5d746cc272ebd38996e3c1e30524d52f8d776844"
+content-hash = "b2f5b46ce86ac68cf4276bb5f6a2d28c71ada3de27e0081e14dc611d7b1b69d2"
